@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8"/>
         <title>Nonce</title>
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <input id="t1" name="radio" type="radio"><label>Theme 1</label>
-        <input id="t2" name="radio" type="radio"><label>Theme 2</label>
-        <input id="t3" name="radio" type="radio"><label>Theme 3</label>
-        <h1>Lorem Ipsum</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ante eget molestie pellentesque. Suspendisse egestas ligula vel tortor volutpat semper. Vivamus a vulputate sem. Praesent sed tortor condimentum, gravida ante eu, rhoncus augue. Donec id tempus augue. Donec ac libero a sapien condimentum feugiat a id eros. Aliquam ullamcorper, quam finibus pharetra tincidunt, sem arcu suscipit arcu, id vulputate purus nunc id magna.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ante eget molestie pellentesque. Suspendisse egestas ligula vel tortor volutpat semper. Vivamus a vulputate sem. Praesent sed tortor condimentum, gravida ante eu, rhoncus augue. Donec id tempus augue. Donec ac libero a sapien condimentum feugiat a id eros. Aliquam ullamcorper, quam finibus pharetra tincidunt, sem arcu suscipit arcu, id vulputate purus nunc id magna.
-        </p>
-        <script src="scripts.js"></script>
+        <main>
+            <fieldset>
+                <legend>Change theme</legend>
+                <label id="theme1-label" for="theme1">Theme 1</label>
+                <input id="theme1" type="radio" name="theme" value="theme1">
+                <label id="theme2-label" for="theme2">Theme 2</label>
+                <input id="theme2" type="radio" name="theme" value="theme2">
+                <label id="theme3-label" for="theme3">Theme 3</label>
+                <input id="theme3" type="radio" name="theme" value="theme3">
+            </fieldset>
+            <h1>Lorem Ipsum</h1>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ante eget molestie pellentesque. Suspendisse egestas ligula vel tortor volutpat semper. Vivamus a vulputate sem. Praesent sed tortor condimentum, gravida ante eu, rhoncus augue. Donec id tempus augue. Donec ac libero a sapien condimentum feugiat a id eros. Aliquam ullamcorper, quam finibus pharetra tincidunt, sem arcu suscipit arcu, id vulputate purus nunc id magna.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ante eget molestie pellentesque. Suspendisse egestas ligula vel tortor volutpat semper. Vivamus a vulputate sem. Praesent sed tortor condimentum, gravida ante eu, rhoncus augue. Donec id tempus augue. Donec ac libero a sapien condimentum feugiat a id eros. Aliquam ullamcorper, quam finibus pharetra tincidunt, sem arcu suscipit arcu, id vulputate purus nunc id magna.
+            </p>
+            <script src="scripts.js"></script>
+        </main>
     </body>
 </html>
